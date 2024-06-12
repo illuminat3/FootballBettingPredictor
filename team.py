@@ -1,5 +1,5 @@
 class Team:
-    def __init__(self, name, over_0_5, over_1_5, over_2_5, over_3_5, under_0_5, under_1_5, under_2_5, under_3_5) -> None:
+    def __init__(self, name: str, over_0_5: float, over_1_5: float, over_2_5: float, over_3_5: float, under_0_5: float, under_1_5: float, under_2_5: float, under_3_5: float) -> None:
         self.name = name
         self.over_0_5 = over_0_5
         self.over_1_5 = over_1_5
